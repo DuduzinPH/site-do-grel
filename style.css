@@ -86,7 +86,7 @@ html, body{
     grid-area:noticias;
     /*background:#002cb8;*/
     background-color: #02050F;
-    background-image:url("https://i.ibb.co/JjK7YCy/Banner-grel-azul.jpg");
+    background-image:url("https://i.ibb.co/bdzzNNS/Banner-GREL-1.jpg");
     background-size:auto;
     background-position: left center;
     grid-column:1/4;
@@ -277,14 +277,14 @@ html, body{
   }
   footer {
     position:absolute;
-    height: 10vb;
+    height: 15%;
     background-color: #333;
     background-image: url("https://i.ibb.co/ykJRXKH/Whats-App-Image-2023-05-14-at-01-12-31-removebg-preview.png");
     background-size: auto;
     color: #333;
     text-align: center;
     width: 100%;
-    bottom: -42px;
+    bottom: -100px;
     left: 0;
     right: 0;
     justify-content: center;
@@ -315,5 +315,4 @@ html, body{
     background-size: auto;
     color: #48FCFA;
     font-weight: bold;
-
   }
