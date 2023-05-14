@@ -22,7 +22,7 @@ html, body{
   }
   
   .container > div{
-    background: linear-gradient(to top, #000261f6, #2702f8);
+    background: linear-gradient(to top, #000261f6, #02050F);
     width:100%;
     height:100%;
   }
@@ -44,9 +44,9 @@ html, body{
     background:rgba(0,0,0,0);
     padding:5px;
     border:5px;
-    border-color:white;
-    color:white;
-    text-shadow: 1px 1px white;
+    border-color:#48FCFA;
+    color:#48FCFA;
+    text-shadow: 1px 1px #48FCFA;
   }
   .grow {
     transition: all 0.2s ease-in-out;
@@ -58,7 +58,7 @@ html, body{
     width:100%;
     height:100%;
     /*background:url("https://sep-bucket-prod.s3.amazonaws.com/wp-content/uploads/2022/04/elenco-desk.jpg");*/
-    background:#0786e7;
+    background:#303435;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
@@ -76,15 +76,18 @@ html, body{
   */
   .noticias{
     grid-area:noticias;
-    background:#002cb8;
-    background-size:cover;
-    background-position: center center;
+    /*background:#002cb8;*/
+    background-color: #02050F;
+    background-image:url("https://i.ibb.co/JjK7YCy/Banner-grel-azul.jpg");
+    background-size:auto;
+    background-position: left center;
     grid-column:1/4;
     grid-gap: 1px;
+    background-repeat: no-repeat;
   }
   .palm{
     grid-area:palm;
-    background-color:#002cb8;
+    background-color:#02050F;
     background-image:url("https://i.ibb.co/MZ9NHLq/logo-grel-darkmode.png");
     background-size:300px 130px;
     background-position: center center;
@@ -104,7 +107,7 @@ html, body{
   }
   .titu{
     grid-area:titu;
-    background-image:url("https://lh3.googleusercontent.com/f7ACYZ7XVJmmkiHIX9hytbnOWnbJXb4YIMm2nSrWNKq7XdqzBQvHKBT7S7OERgH1dwey_A3HtYskdWC6M6ECDj4HfPm6E2PFsOA2xOj8-4bw1K62d2XGp7Z3Eu3tpyPshUpxkvsSmcHDxxn906sJJRGf3NOSB1gj1n3ZEz9nD11_cruLrOQmtAvlAYnZPkyNmbIQc-wl5MH2fiHOVB_nZzSom-BhuqnNVzqQn0zmiPi4Nc4Ng0CEWs8wVW5wibOG2ZuSu_ziu3wkZGdWcqztaE2h9BBRUjJTvDHuoXYSxO5t1PG_chO1AWppOXpx_8KV2PRFoZMmIjEY8-mF54EXVAUgjsPb4EW8s9E4zurpneeCOREMfrUsIKvN4o1rCBq0u-8TH0IIrO6UVHtzweLIfdtWFEx75wRGHPNXWdW3SGUBf2wbKE7WG1sI7B7-wRv9l_0TBBvsMkbvR_rqtG7eJukYsLuseNCIrX3aN5PAKzisIKskAoevG7o2ogGsoWNiZbq0iTnVNnt4tq6gkmPgBGO8_VogitD95xl16qQPYTptc3EndROoeOzrfqGfsPa6-O2rEUrpOZSEjQHs6ySjaKUFeglTJ4IXAqXqx2803lsEqh9d5-T9ZwRde75gqOCDECi5oK4PLoS_QZbHTfvDUNZt-wNZh6jjm6uqKdQc-xsaWbeXIYKTHMf79WrjM2ey_32U0UJGT_kv64q1T9Q5vtS7j22PHQ9PhLNexqWr3LJgW3oBpCP91hdGJW9Eka_QBOF789rgYxbQRgLIifl7M9f9iCIUaD9k00WPzv9BGQXESg_L4LqZNzWwxdzjS0wol-SUMnLqG5uNNQy7kzhUc5g4DzwTWXf9CoCu03ujAP3oUcO9HfKnPFmAEXou5pmW1a3V69RhXX1jnXclfkk5uyyrPbk9kOw9FgFNRQSFtTk=w716-h600-s-no?authuser=0") ;
+    background-image:url("https://i.ibb.co/LnyY8zq/T-tulos-do-GREL.png") ;
     
     /*
     background-image: url("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt6a84d0ac07049fde/61539ee8d8068d7efec58772/f5cfd6382e31593a69f1a43c0fa12c9dca64ba92.jpg");
@@ -125,7 +128,7 @@ html, body{
   }
   .participantes{
     grid-area:copabr;
-    background-image:url("https://lh3.googleusercontent.com/OfCB_fUduyYJtWF0dzRacZLVqnWDwC-hA3J2ZEwzJhPNW4cBAsU0K9sUZplq0-XeWArSYY7MNDHZDL5Mg78K8OEXrCMkT-iN7vgTValQIjfTdHlMLn3gcpajeBkoef3lKCJcqayzIcpwIGLw7XNFtPnwRflZqFwd49Aa8lJnSBGV9NeYdu3ZxEJVy6gANIscPcQoSaJCp4fPO17tgOTunkeBeB0fa-lchQG_iAOSQ3KlL8XzaUhvYENvyf0g-3fCSGEDbqLglAsPnjQQzpFdvsKIIyY4JUIcxF866xLx-kBAoN89g3Njo7E_pSzJFlwg6A07PIMDoZQm73iBZqzR-wtUXPbKDS_rq1E29-QursVqdu2X3rlfoG1otAWsIo4EQuQRTxSQ_FNxlmNsQJ7UoBJmP338Gg5UktC73d1PCLbxHOP7EbjTMNB2rfJStWLQk3NZFDNJwHdTIa8LxtdtNrw0QPjtt0_clTPGLcTqb-5r3IgrtXJ0vqTFR0eiRJQ8Otxw3ABJOObc119CRN7YgtbQt40w03F3n19OW7z10c0bBpmTm4i_QyKlruMknjWu8d_2hkrXmZ-Zs6ja2xYwLVJqBiuACZ2VhUwUeV3dp8dqNSTud0A4yLEYfKwRDxA-VsKK6XZGm7PljreXOFamefyYB8bdlzqVEcjD3QdaND8NMxhnc5NInkd3LUVSpqNEAul0PpcX5tbSUY2DNFoKjiVK0VV_WjuoRdGAUb_RQBaTeYujs9njsejajad17EHL4CCayyxUAQOWfv7LjLooj2Rukxvbo_zvk6d2AFr5GPRKtIe4pM7fk_cKTr8jfVIgUkeq0y7JSRiRfWWpgJcBzYZD-1H-yJYtl8A_5lhNKVDNNVJ90KE71PL_LUtOdNV1y_YtTZJ0obtBBg5eokijK9Y11rc_A287yrycYMyBGCs=s328-no?authuser=0");
+    background-image:url("https://i.ibb.co/vmC9JJ6/Membros-e-equipes-GREL.png");
     /*
     background-image: url("https://s2.glbimg.com/V5AZrjKXiI4jBaz6VS9VAvUgR74=/0x0:910x607/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/Q/r/ZInnk8Q1eb8QGmGypsGg/20211215225611-599.jpeg");
     */
@@ -144,7 +147,7 @@ html, body{
   }
   .comp{
     grid-area:lb;
-    background-image: url("https://lh3.googleusercontent.com/-x-Se3M3VEGhM2HWZQkENswsE5T_P2-bVuOp2pbw9Wp4LnDpbbLEZB5IcggcTxqvzxNbG0C8VH4gqwQqr_J_TJhmTJ9aHHuNsV0qRhFkZRMJma1GYM1VySReYclBVKCD6h26c34GroSG7n3hzPCe1429FaNZLs6f4vKTD43RPgkLWjwa3A3f61bxQQ5BcyndKSQy-xkDfqZBgPEiMgyxcXUiEB_6uLIkZWwhcyID2-usKqb57fLylmT8bbNkYtT6uhVnKIsLd_HLOWAV20Eq0qtAwPXp18QM90rnB-gV4MTthAIdF9Vctv-eZUrJ-N9083JN0N0ZSuhxyoe1XGb33onwn9WUvTmDGDzToCVpx3bG6XUFkPgShdVXXW3IzG6-wNSfMKW9G8CrkEn9Nxpv-At9AyydClKttnIHd8Je7AKtjHUlu4llK5XCw7beCjZ5bJviEyXxWo0vh2WWHZpwxf3F_Vymihi8aqCjWDqp6mXDZHXey47_v0vLEsQfmMhKqS2DXDjw1Mfk5vJ1zr_du_FsGqgLf5Lsjlq0jhTZih9fuBRHmO3BmP9xrG5AXH7XY2HTvUXtebvNFFuxg9Ps0XbcLMaYy4_hEn-k2z9t_3ymNonQ6ileScPCtJGOA70hAlWvssDnhQgHKAuOz77SARpVsG00Cj1LftZO9jcShbVhvTl3nY8EsLQ6PhAoXk5xUHGuKIxGFR1Rbg1rD4NAqaR7JUTX4MPOY1npsEVtdu_7M0k1NVLG-8B9RYlS71XQS9EbQGmRqg9wM0-8lDXDWXFoI_6KhBU7ZWxxlBZilIBwYTriE8fs5NyEIEzxahUD3h5Kz_VA8Ex3h_ZYNJzgQFeuFep0ic3k_f9pHVOIVhePpMES9mSiAkbTxYb2H4pgkMRGR95JRfV84Xz9pWqN3brW4KGDB_RBGKCs2KgprxY=s328-no?authuser=0");
+    background-image: url("https://i.ibb.co/3CWCcnf/competi-es-2023-GREL.png");
     /*
     background-image: url("https://afonsodinizblog.files.wordpress.com/2021/04/banner_2_12.jpg");
     */
@@ -180,12 +183,12 @@ html, body{
   }
   .titul{
     grid-area: brimg;
-    background-image:url("https://lh3.googleusercontent.com/rcpM5w5rGNTjw0lpDrKFf-5xdWFiZ68frTzg6FeHqyjO1AXwyajwWpuX-nnWvR2ezgj1MFiExEFCwVihjdGCuXqdMNYRPh4-ifMClPeTXMGAJx5M8MlbqGHzXIjaZyvBnNNna9fDKRu08eM6Jyo91e0feSyfvwzyLOJjQksUzLGXIOvpAwUYhc7kfrViL6yrIltcFomoS5ih2N7M_55dtLE1NU1eRk6mRupqVzuTfku7YQ1i32QFeMCxjAoDAqkDEN5ahdfpJYNPc1OZfmHWuZYctgPixSWWT_Dv2fqWxbiID2EKNxFLCiLtW0HMIdM7CbyiojJwW53Y4z30ftG_prYRcgecgVKjS5k6elBJHiG2tnQjnoPdLzO3NjaGpoMxBEmP4uE-XJkpX6Mymvf3dtCmW5rcr7yUJzAzOuunm-QxVOIZyY2z8Lh7BaGUPxBMgYalh0oZwH909ljxDIaezvmg5EtqKjf21uMukqhVqr_kOxjySRAqjM1KzCYH_0d0FY9uCyLXk0NFDME_oPk0D1YXOmbUZb41o5SC6ILloH8_DZ9tcs-N32DMt04ZfG3ZtUZw29dp4mv4yRmfJxZ2Zw1ZGMdrGQ4yAWtt4z64utNw9YyHsomMoN2o2oBQa4rGiZ0bV7oERwdOYAVgCRKQ8V7oxWjgdDpt69Tdij4v6qr1YUpIWf7FCMq6RbLV2MS7nEhA_5uw58CCphV2PzMIrFVFymK-Hk7Ryr4LrG0b-js6rdE57FZYeivQuKc7jG5A0UcMCzp2uR4T-YWgjV8zZ7xs6okHfRFMicWKwCZQ5SeaR0QnLlHpm3DMxLaqBv3sJBxZE0EM-1uQv_V5NPX_tkpADeeCq1Y66IE2Q625p5iP3BUApv05d7jqKK9q-cNFGUPLSjanfsel9Fq2DYLB2eONKzZnarWBnptjpGnwgDI=s328-no?authuser=0");
+    background-image:url("https://i.ibb.co/bHyfcSK/background-dost-picos-site.png");
     grid-row:3/5;
   }
   .partl{
     grid-area:copabrimg;
-    background-image:url("https://lh3.googleusercontent.com/rcpM5w5rGNTjw0lpDrKFf-5xdWFiZ68frTzg6FeHqyjO1AXwyajwWpuX-nnWvR2ezgj1MFiExEFCwVihjdGCuXqdMNYRPh4-ifMClPeTXMGAJx5M8MlbqGHzXIjaZyvBnNNna9fDKRu08eM6Jyo91e0feSyfvwzyLOJjQksUzLGXIOvpAwUYhc7kfrViL6yrIltcFomoS5ih2N7M_55dtLE1NU1eRk6mRupqVzuTfku7YQ1i32QFeMCxjAoDAqkDEN5ahdfpJYNPc1OZfmHWuZYctgPixSWWT_Dv2fqWxbiID2EKNxFLCiLtW0HMIdM7CbyiojJwW53Y4z30ftG_prYRcgecgVKjS5k6elBJHiG2tnQjnoPdLzO3NjaGpoMxBEmP4uE-XJkpX6Mymvf3dtCmW5rcr7yUJzAzOuunm-QxVOIZyY2z8Lh7BaGUPxBMgYalh0oZwH909ljxDIaezvmg5EtqKjf21uMukqhVqr_kOxjySRAqjM1KzCYH_0d0FY9uCyLXk0NFDME_oPk0D1YXOmbUZb41o5SC6ILloH8_DZ9tcs-N32DMt04ZfG3ZtUZw29dp4mv4yRmfJxZ2Zw1ZGMdrGQ4yAWtt4z64utNw9YyHsomMoN2o2oBQa4rGiZ0bV7oERwdOYAVgCRKQ8V7oxWjgdDpt69Tdij4v6qr1YUpIWf7FCMq6RbLV2MS7nEhA_5uw58CCphV2PzMIrFVFymK-Hk7Ryr4LrG0b-js6rdE57FZYeivQuKc7jG5A0UcMCzp2uR4T-YWgjV8zZ7xs6okHfRFMicWKwCZQ5SeaR0QnLlHpm3DMxLaqBv3sJBxZE0EM-1uQv_V5NPX_tkpADeeCq1Y66IE2Q625p5iP3BUApv05d7jqKK9q-cNFGUPLSjanfsel9Fq2DYLB2eONKzZnarWBnptjpGnwgDI=s328-no?authuser=0");
+    background-image:url("https://i.ibb.co/bHyfcSK/background-dost-picos-site.png");
     /*
     background-image: url("https://cassiozirpoli.com.br/wp-content/uploads/2021/03/2021_palmeiras_2x0_gremio_final_da_copa_do_brasil_2020_700_2.jpg");
     */
@@ -196,7 +199,7 @@ html, body{
   
   .compl{
     grid-area:lbimg;
-    background-image:url("https://lh3.googleusercontent.com/rcpM5w5rGNTjw0lpDrKFf-5xdWFiZ68frTzg6FeHqyjO1AXwyajwWpuX-nnWvR2ezgj1MFiExEFCwVihjdGCuXqdMNYRPh4-ifMClPeTXMGAJx5M8MlbqGHzXIjaZyvBnNNna9fDKRu08eM6Jyo91e0feSyfvwzyLOJjQksUzLGXIOvpAwUYhc7kfrViL6yrIltcFomoS5ih2N7M_55dtLE1NU1eRk6mRupqVzuTfku7YQ1i32QFeMCxjAoDAqkDEN5ahdfpJYNPc1OZfmHWuZYctgPixSWWT_Dv2fqWxbiID2EKNxFLCiLtW0HMIdM7CbyiojJwW53Y4z30ftG_prYRcgecgVKjS5k6elBJHiG2tnQjnoPdLzO3NjaGpoMxBEmP4uE-XJkpX6Mymvf3dtCmW5rcr7yUJzAzOuunm-QxVOIZyY2z8Lh7BaGUPxBMgYalh0oZwH909ljxDIaezvmg5EtqKjf21uMukqhVqr_kOxjySRAqjM1KzCYH_0d0FY9uCyLXk0NFDME_oPk0D1YXOmbUZb41o5SC6ILloH8_DZ9tcs-N32DMt04ZfG3ZtUZw29dp4mv4yRmfJxZ2Zw1ZGMdrGQ4yAWtt4z64utNw9YyHsomMoN2o2oBQa4rGiZ0bV7oERwdOYAVgCRKQ8V7oxWjgdDpt69Tdij4v6qr1YUpIWf7FCMq6RbLV2MS7nEhA_5uw58CCphV2PzMIrFVFymK-Hk7Ryr4LrG0b-js6rdE57FZYeivQuKc7jG5A0UcMCzp2uR4T-YWgjV8zZ7xs6okHfRFMicWKwCZQ5SeaR0QnLlHpm3DMxLaqBv3sJBxZE0EM-1uQv_V5NPX_tkpADeeCq1Y66IE2Q625p5iP3BUApv05d7jqKK9q-cNFGUPLSjanfsel9Fq2DYLB2eONKzZnarWBnptjpGnwgDI=s328-no?authuser=0");
+    background-image:url("https://i.ibb.co/bHyfcSK/background-dost-picos-site.png");
     /*
     background-image: url("https://www.correio24horas.com.br/fileadmin/_processed_/9/1/csm_Divulgacao_Conmebol_03e90fa0b4.jpg");
     */
@@ -211,14 +214,14 @@ html, body{
    /*background-color: #83a0fd;*/
     background-image: url("https://www.ifpb.edu.br/joaopessoa/institucional/comunicacao-social/copy_of_materiais-para-downloads/marca-ifpb-campus-joao-pessoa/marca-horizontal-02-campus-jp");
     background-size:100% 100%;
-    backgorund-position: center center;
+    background-position: center center;
   }
   .tabela{
     grid-area:tabela;
     background-image: url("https://estudante.ifpb.edu.br/media/noticias/imagens/94896b77-78ec-4a8c-90b0-cfa6c609d6e5.jpeg");
     grid-row:2/5;
     background-size:100% 100%;
-    backgorund-position: center center;
+    background-position: center center;
   }
   .listap {
     border-collapse: separate;
@@ -272,6 +275,7 @@ html, body{
     background-color: rgb(0,0,0,0);
     padding: 0.5px;
     text-align: center;
+    text-color: #48FCFA;
     width: 100%;
     height: 5%;
     font-size: 15px;
@@ -292,4 +296,7 @@ html, body{
   }
   .fb{
 
+  }
+  h4{
+    color: #48FCFA;
   }
