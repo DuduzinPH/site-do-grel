@@ -277,18 +277,23 @@ html, body{
   }
   footer {
     position:absolute;
-    height:5%;
+    height: 10vb;
     background-color: #333;
+    background-image: url("https://i.ibb.co/ykJRXKH/Whats-App-Image-2023-05-14-at-01-12-31-removebg-preview.png");
+    background-size: auto;
     color: #333;
     text-align: center;
     width: 100%;
-    bottom: 0;
+    bottom: -42px;
     left: 0;
     right: 0;
     justify-content: center;
     align-items: center;
   }
-  
+  .myFooter{
+    background-image: url("https://i.ibb.co/ykJRXKH/Whats-App-Image-2023-05-14-at-01-12-31-removebg-preview.png");
+    background-size: auto;
+  }
   footer img {
     width: 35px;
     margin-left: 5px;
@@ -305,6 +310,10 @@ html, body{
   .fb{
 
   }
-  h4{
+  footer p{
+    background-image: url("https://i.ibb.co/ykJRXKH/Whats-App-Image-2023-05-14-at-01-12-31-removebg-preview.png");
+    background-size: auto;
     color: #48FCFA;
+    font-weight: bold;
+
   }
