@@ -12,10 +12,11 @@ lotus = {
     participantes: ['Guerra', 'Tomaz', 'Dudu', 'Yan']
 }
 
-equipes = [{ nome: TechLadies, participantes: [Violetta, Rillary,Dayane,Erika] },
-{ nome:lotus, participantes: [Eduardo,Tomaz,Guerra,Yan] },
-{ nome:BKP, participantes: [Andrey,Airam,David] },
-{ nome:, participantes: [] }]
+equipes = [
+    { nome: 'TechLadies', participantes: ['Violetta', 'Rillary', 'Dayane', 'Erika'] },
+    { nome: 'lotus', participantes: ['Eduardo', 'Tomaz', 'Guerra', 'Yan'] },
+    { nome: 'BKP', participantes: ['Andrey', 'Airam', 'David']},
+    { nome: 'MNR', participantes: ['Jefferson','Thiago','Vitória','Maciel','Yan'] }]
 
 var texto = '';
 
