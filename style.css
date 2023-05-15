@@ -86,9 +86,9 @@ html, body{
     /*background:#002cb8;*/
     background-color: #02050F;
     background-image:url("https://i.ibb.co/B4kLdy6/Banner-GREL-3.jpg"),
-    url("https://tenor.googleapis.com/v2/media?id=4247664454221611255&format=optimizedgif&client_key=tenor_web&appversion=server-r20230511-3&access_token=ya29.a0AWY7CkmFoHOLN4eSzNb0KtYU1d14GhIMiqEzTxhxSwwDFSzMQIqs2WDHPiwXoXDsEd7OkCr2i5RwAHK-v9zN72oLdHbnw5QCvo4PHdurHmciyrI45Bpy5gmmF7c24deG2uaiXqHq93204H34T0yrg6l-TYfVaCgYKAeYSARISFQG1tDrplFe5AG6vG7GM4tkMonjF7Q0163&key=AIzaSyC-P6_qz3FzCoXGLk6tgitZo4jEJ5mLzD8"),
-    url("https://tenor.googleapis.com/v2/media?id=4247664454221611255&format=optimizedgif&client_key=tenor_web&appversion=server-r20230511-3&access_token=ya29.a0AWY7CkmFoHOLN4eSzNb0KtYU1d14GhIMiqEzTxhxSwwDFSzMQIqs2WDHPiwXoXDsEd7OkCr2i5RwAHK-v9zN72oLdHbnw5QCvo4PHdurHmciyrI45Bpy5gmmF7c24deG2uaiXqHq93204H34T0yrg6l-TYfVaCgYKAeYSARISFQG1tDrplFe5AG6vG7GM4tkMonjF7Q0163&key=AIzaSyC-P6_qz3FzCoXGLk6tgitZo4jEJ5mLzD8");
-    background-size:auto,auto;
+    url("./imagens/gif\ de\ apresentação\ do\ grel.gif"),
+    url("./imagens/gif\ de\ apresentação\ do\ grel.gif");
+    background-size:auto,contain,contain;
     background-position:center,left,right;
     grid-column:1/4;
     grid-gap: 0.2px;
