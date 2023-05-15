@@ -69,8 +69,7 @@ html, body{
     background:#303435;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
-    
+    grid-template-rows: 20vh 20vh 20vh;
     grid-gap:0.5px;
     grid-template-areas: "noticias . . palm"
                          "titu copabr lb ."
@@ -86,12 +85,17 @@ html, body{
     grid-area:noticias;
     /*background:#002cb8;*/
     background-color: #02050F;
-    background-image:url("https://i.ibb.co/bdzzNNS/Banner-GREL-1.jpg");
-    background-size:auto;
-    background-position: left center;
+    background-image:url("https://i.ibb.co/B4kLdy6/Banner-GREL-3.jpg"),
+    url("https://tenor.googleapis.com/v2/media?id=4247664454221611255&format=optimizedgif&client_key=tenor_web&appversion=server-r20230511-3&access_token=ya29.a0AWY7CkmFoHOLN4eSzNb0KtYU1d14GhIMiqEzTxhxSwwDFSzMQIqs2WDHPiwXoXDsEd7OkCr2i5RwAHK-v9zN72oLdHbnw5QCvo4PHdurHmciyrI45Bpy5gmmF7c24deG2uaiXqHq93204H34T0yrg6l-TYfVaCgYKAeYSARISFQG1tDrplFe5AG6vG7GM4tkMonjF7Q0163&key=AIzaSyC-P6_qz3FzCoXGLk6tgitZo4jEJ5mLzD8"),
+    url("https://tenor.googleapis.com/v2/media?id=4247664454221611255&format=optimizedgif&client_key=tenor_web&appversion=server-r20230511-3&access_token=ya29.a0AWY7CkmFoHOLN4eSzNb0KtYU1d14GhIMiqEzTxhxSwwDFSzMQIqs2WDHPiwXoXDsEd7OkCr2i5RwAHK-v9zN72oLdHbnw5QCvo4PHdurHmciyrI45Bpy5gmmF7c24deG2uaiXqHq93204H34T0yrg6l-TYfVaCgYKAeYSARISFQG1tDrplFe5AG6vG7GM4tkMonjF7Q0163&key=AIzaSyC-P6_qz3FzCoXGLk6tgitZo4jEJ5mLzD8");
+    background-size:auto,auto;
+    background-position:center,left,right;
     grid-column:1/4;
-    grid-gap: 1px;
-    background-repeat: no-repeat;
+    grid-gap: 0.2px;
+    background-repeat: no-repeat,no-repeat;
+
+
+
   }
   .palm{
     grid-area:palm;
@@ -136,12 +140,14 @@ html, body{
   }
   .participantes{
     grid-area:copabr;
+    background-color: #02050F;
     background-image:url("https://i.ibb.co/vmC9JJ6/Membros-e-equipes-GREL.png");
     /*
     background-image: url("https://s2.glbimg.com/V5AZrjKXiI4jBaz6VS9VAvUgR74=/0x0:910x607/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/Q/r/ZInnk8Q1eb8QGmGypsGg/20211215225611-599.jpeg");
     */
-    background-size:100%100%;
+    background-size:80% 80%;
     background-position: center center;
+    background-repeat: no-repeat;
   }
   .participantes p{
     position: relative;
@@ -159,7 +165,7 @@ html, body{
     /*
     background-image: url("https://afonsodinizblog.files.wordpress.com/2021/04/banner_2_12.jpg");
     */
-    background-size:100%100%;
+    background-size:80% 80%;
     background-position: center center;
   }
 .comp p{
@@ -276,15 +282,16 @@ html, body{
     font-style: normal;
   }
   footer {
-    position:absolute;
-    height: 15%;
+    position:relative;
+    /* height: 15%; */
     background-color: #333;
     background-image: url("https://i.ibb.co/ykJRXKH/Whats-App-Image-2023-05-14-at-01-12-31-removebg-preview.png");
     background-size: auto;
     color: #333;
     text-align: center;
     width: 100%;
-    bottom: -100px;
+    padding-top:30px; 
+    padding-bottom:0px;
     left: 0;
     right: 0;
     justify-content: center;
