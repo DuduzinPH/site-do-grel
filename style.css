@@ -64,7 +64,7 @@ html, body{
   }
   .feed{
     width:100%;
-    height:100%;
+    height:100vh;
     /*background:url("https://sep-bucket-prod.s3.amazonaws.com/wp-content/uploads/2022/04/elenco-desk.jpg");*/
     background:#303435;
     display:grid;
@@ -234,8 +234,9 @@ html, body{
     grid-area:tabela;
     background-image: url("https://estudante.ifpb.edu.br/media/noticias/imagens/94896b77-78ec-4a8c-90b0-cfa6c609d6e5.jpeg");
     grid-row:2/5;
-    background-size:100% 100%;
+    background-size:auto;
     background-position: center center;
+    background-repeat: no-repeat;
   }
   .listap {
     border-collapse: separate;
